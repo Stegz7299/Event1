@@ -15,9 +15,6 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
-            </a>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="nav nav-pills justify-content-end">
                     <li class="nav-item">
@@ -79,7 +76,7 @@
         <div class="container-sm">
             <div class="row align-items-center" data-aos="fade-in">
                 <div class="col-4" id="about">
-                    <img src="https://c4.wallpaperflare.com/wallpaper/965/695/776/meguro-river-tokyo-japan-blossom-wallpaper-preview.jpg"
+                    <img src="p12.jpeg"
                         alt="Gambar" />
                 </div>
                 <div class="col-7">
