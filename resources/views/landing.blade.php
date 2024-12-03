@@ -8,44 +8,47 @@
     <link href="{{ asset('css/style1.css') }}" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="container">
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="nav nav-pills justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="{{asset('login.blade.php')}}">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{asset('signup.blade.php')}}">Sign Up</a>
-                    </li>
-                </ul>
-            </div>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Wedding Organizer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{asset('login.blade.php')}}">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{asset('signup.blade.php')}}">Sign Up</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner" data-aos="slide-in">
             <div class="carousel-item active">
                 <img src="https://static.promediateknologi.id/crop/0x0:0x0/x/photo/p2/76/2023/10/21/Diana-Wedding-Organizer-4-3134169636.jpg"
-                    alt="..." style="height: 500px;">
+                class="d-block w-100 img-fluid" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="https://swamediainc.storage.googleapis.com/swa.co.id/wp-content/uploads/2022/02/26214250/IMG-20220226-WA0005.jpg"
-                    alt="..." style="height: 500px;">
+                class="d-block w-100 img-fluid"   alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://tigadaracatering.id/images/pelaminan-golden-age-27102024.webp" alt="..."
-                    style="height: 500px;">
+                <img src="https://tigadaracatering.id/images/pelaminan-golden-age-27102024.webp" 
+                class="d-block w-100 img-fluid" alt="...">
             </div>
             <div class="carousel-item">
             <a href="login.blade.php">
-                <img src="ppp.jpeg" alt="..."
-                    style="height: 500px;">
+                <img src="ppp.jpeg" class="d-block w-100 img-fluid" alt="...">
             </a>
             </div>
         </div>
